@@ -1,8 +1,12 @@
+// NOMEANDO CONSTANTES
+
 #define POT_INPUT A0
 #define LED_VERM 2
 #define LED_AMAR 3
 #define LED_VERD 4
 #define LED_AZUL 5
+
+// DECLARAÇÃO DE VARIÁVEL
 
 int potValue;
 
