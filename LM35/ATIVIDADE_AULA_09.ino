@@ -8,6 +8,7 @@ void setup() {
     lcd.begin(16, 2);
     lcd.print("TEMP: ");
     lcd.setCursor(0, 1); 
+    lcd.clear();
 }
 
 float lerTemperatura() {
@@ -18,7 +19,7 @@ float lerTemperatura() {
 }
 
 void imprimirLcd(float val) {
-    lcd.print(temp);
+    lcd.print(val);
 }
 
 void loop() {
